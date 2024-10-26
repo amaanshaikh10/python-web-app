@@ -43,8 +43,8 @@ Docker group is create by default when docker is installed.
 
    Use the same command again, to verify that docker is up and running.
 
-    ```
     docker run hello-world
+    
 11. **Clone this repository and move to python-web-app folder**
      ```
      git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
