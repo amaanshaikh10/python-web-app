@@ -1,101 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: yellow;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: yellow;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AWS DevOps Internship Project</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
 
-
 <header>
-  <h2>AWS Devops project </h2>
+    <h2>AWS DevOps Internship Project</h2>
+    <h4>Team Members:</h4>
+    <h4>Amaan Shaikh | Ameer Shaikh | Abhishek Kuri</h4>
 </header>
 
 <section>
-  <nav>
-    <ul>
-      <li><a href="https://github.com/amaanshaikh10">github</a></li>
-      <li><a href="https://www.linkedin.com/in/amanulla-ibrahim-shaikh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
-      <li><a href="www.google.com">google</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>DevOps</h1>
-    <p>understanding devops by using Docker</p>
-    
-  </article>
+    <table>
+        <tr>
+            <th>Member Name</th>
+            <th>GitHub Repository</th>
+            <th>LinkedIn Profile</th>
+        </tr>
+        <tr>
+            <td>Amaan Shaikh</td>
+            <td><a href="https://github.com/amaanshaikh10/Project-A">Project-A</a></td>
+            <td><a href="https://www.linkedin.com/in/amanulla-ibrahim-shaikh">Amaan's LinkedIn</a></td>
+        </tr>
+        <tr>
+            <td>Ameer Shaikh</td>
+            <td><a href="https://github.com/member2/Project-B">Project-B</a></td>
+            <td><a href="https://www.linkedin.com/in/member2">Ameer's LinkedIn</a></td>
+        </tr>
+        <tr>
+            <td>Abhishek Kuri</td>
+            <td><a href="https://github.com/member3/Project-C">Project-C</a></td>
+            <td><a href="https://www.linkedin.com/in/member3">Abhishek's LinkedIn</a></td>
+        </tr>
+    </table>
+
+    <article>
+        <h1>Project Overview</h1>
+        <p>This project focuses on implementing DevOps best practices using AWS and Docker.</p>
+        <p>Our team successfully deployed a web application using containerization, CI/CD pipelines, and infrastructure as code.</p>
+    </article>
 </section>
 
 <footer>
-  <p>Copyright </p>
+    <p>&copy; 2025 AWS DevOps Project | Developed by Amaan, Ameer & Abhishek</p>
 </footer>
 
 </body>
 </html>
-
